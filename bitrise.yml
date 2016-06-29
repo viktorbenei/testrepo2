@@ -18,5 +18,6 @@ workflows:
             #!/bin/bash
             set -ex
             ls -alh
+            ls -alh git-lfs-files/
             bash ./gen_commit.sh
             git push
