@@ -19,5 +19,6 @@ workflows:
             set -ex
             ls -alh
             ls -alh git-lfs-files/
+            git lfs version
             bash ./gen_commit.sh
             git push
